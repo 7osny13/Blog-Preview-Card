@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+
+
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Gray-500 : hsl(0, 0%, 42%);
+    --slate-950 : hsl(0, 0%, 7%);
+
+}
+
+*{
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: "Figtree", serif;
+    margin: 0;
+    background-color: var(--Yellow);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: var(--White);
+    border-radius: 10px;
+    box-shadow: 6px 6px 4px 3px rgb(0 0 0 / 90%);
+    width: 384px;
+    height: 522px;
+    padding: 15px 25px;
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+}
+
+.card-image img {
+    border-radius: 10px;
+}
+
+.card-category {
+    background-color: var(--Yellow);
+    border-radius: 5px;
+    width: fit-content;
+    
+}
+
+.card-category p {
+    padding: 5px 10px;
+    font-weight: 700;
+}
+
+.card-publish-date p {
+    font-size: 12px;
+}
+
+.card-title h2 {
+    font-weight: 800;
+}
+
+.card-brief p {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.card-author {
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.author-image {
+    width: 32px;
+    height: 32px;
+    margin-top: 8px;
+}
+
+.author-name {
+    margin-left: 10px;
+}
+
